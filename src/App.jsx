@@ -1,3 +1,4 @@
+import Header from "./components/header/Header";
 import logo from "./assets/investment-calculator-logo.png";
 
 function App() {
@@ -30,11 +31,7 @@ function App() {
 
   return (
     <div>
-      <header className="header">
-        <img src={logo} alt="logo" />
-        <h1>Investment Calculator</h1>
-      </header>
-
+      <Header/>
       <form className="form">
         <div className="input-group">
           <p>
